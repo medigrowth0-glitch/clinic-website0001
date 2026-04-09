@@ -1,6 +1,8 @@
 "use client";
 
-export default function Home() {
+import { useState } from "react";
+
+export default function HomePage() {
   return (
     <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
       <h1>समर आयुर्वेदिक क्लीनिक</h1>
@@ -8,8 +10,7 @@ export default function Home() {
       <a href="tel:+919416715187">Call Now</a>
     </div>
   );
-}
-      name: "डॉ. सुनील",
+}      name: "डॉ. सुनील",
       degree: "B.A.M.S.",
       description: "आयुर्वेदिक परामर्शदाता, क्लीनिक में सामान्य और दीर्घकालिक समस्याओं पर ध्यान।"
     },
