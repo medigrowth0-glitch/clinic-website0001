@@ -8,17 +8,7 @@ export default function Home() {
       <a href="tel:+919416715187">Call Now</a>
     </div>
   );
-}"use client";
-
-import { useState } from "react";
-
-const clinic = {
-  name: "समर आयुर्वेदिक क्लीनिक",
-  phoneDisplay: "94167-15187",
-  phoneHref: "+919416715187",
-  location: "दुर्गा मंदिर के पास, गांव बीघड़, जिला फतेहाबाद",
-  doctors: [
-    {
+}
       name: "डॉ. सुनील",
       degree: "B.A.M.S.",
       description: "आयुर्वेदिक परामर्शदाता, क्लीनिक में सामान्य और दीर्घकालिक समस्याओं पर ध्यान।"
