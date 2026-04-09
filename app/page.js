@@ -1,5 +1,15 @@
 "use client";
 
+export default function Home() {
+  return (
+    <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
+      <h1>समर आयुर्वेदिक क्लीनिक</h1>
+      <p>Website successfully deployed 🚀</p>
+      <a href="tel:+919416715187">Call Now</a>
+    </div>
+  );
+}"use client";
+
 import { useState } from "react";
 
 const clinic = {
